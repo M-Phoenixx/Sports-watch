@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #253e4b;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin-top: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+} 
+.titel{
+   color: snow;
+   margin: .5rem;
+}
+.time{
+    border: .2rem solid #00cdd0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin: .8rem;
+}
+.btn > span{
+    color: snow;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.stop{
+    position: relative;
+     visibility: hidden;
+}
+.btn > :first-child{
+    position: absolute;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img > h1{
+    color: snow;
+}
+img{
+    width: 50%;
+}
+#narutorun ,#narutostop{
+    display: none;
+}
